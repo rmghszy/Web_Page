@@ -1,148 +1,245 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="teststyle.css">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Raleway&display=swap" rel="stylesheet">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
-    <title>Document</title>
-</head>
-<body>
-        <div class="MainContainer">
-          	<nav id="navbar">
-                <h1 class="logo"><a href="index.html"></a>Migi Bell</h2>
-                <ul>
-                  <li><a href="index.html">home</a></li>
-                  <li><a href="portfolio.html">portfolio</a></li>
-                  <li><a href="about.html">about me</a></li>
-                  <li><a href="contact.html">contact me</a></li>
-                </ul>
-              </nav>
-          <div class="ParallaxContainer">
-            <!-- <img src="./coffee2.jpg" alt=""> -->
-            
-          </div>
-          <div class="ContentContainer"><section id="home">
-              <div class="home-container">
-                <div class="home-content bg-white">
-                  <img src="./face.jpg">
-                  <div class="home-right">
-                      <h1 class="logo">Migi Bell</h1>
-                      <h2 class="uppercase">food</h2>
-                      <h2 class="uppercase">stylist</h2>
-                      <h2>---</h2>
-                      <h3 class="uppercase">portfolio ></h3>
-                  </div> 
-                </div>
-              </div>
-          </section>
+html, body {
+    font-family: 'Raleway', sans-serif;
+	  font-size: 12px;
+	  line-height: 1.7em;
+    /* font-size: 18px;
+    line-height: 28px; */
+    scroll-behavior: smooth;
+    overflow: hidden;
+    /* box-sizing: border-box; */
+  }
+  a {
+    color: gray;
+    text-decoration: none;
+  }
 
-            <div class="Content">
-              <!-- <p>ʻO Lorem Ipsum kahi haʻahaʻa wale nō o ka paʻi a me keʻano o nāʻoihana. ʻO Lorem Ipsum ka 'ōlelo papahana
-                maʻamau o kaʻoihana o ka makahiki 1500, i ka wā i lawe ai kekahi mea paʻi kiʻiʻole i keʻano o ka type a
-                scrambled iā ia e hana i kahi puke kiko'ī. ʻAʻole i ola wale i kaʻelima mau kenekulia, akā,ʻo ka leleʻana hoʻi i
-                nāʻano o ka lolouila, e hoʻololiʻoleʻia ana. Ua hoʻolahaʻia i nā makahiki 1960 me ka hoʻokuʻuʻana i nā pepa
-                Letraset i loko o nā moʻolelo Lorem Ipsum, a me nā mea hou aku me ka polokalamu hoʻopuka pākī e like me Aldus
-                PageMaker me nā papa o Lorem Ipsum.
-              </p> -->
-              <section id="portfolio">
-                <div class="box bg-blue">
-                  <h2>projects</h2>
-                  <h3>projects ></h3>
-                </div>
-                <div class="box bg-purple">
-                  <h2>projects</h2>
-                  <h3>editorial ></h3>
-                </div>
-                <div class="box bg-light_purple">
-                  <h2>projects</h2>
-                  <h3>innovative ></h3>
-                </div>			
-              </section>
-              <div class="clr"></div>
-              <!-- <section id="about">
-                <div class="about-box bg-purple">
-                  <h3>- Hello -</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-                </div>
-              </section> -->
-              <!-- <section id="contact">
-                <div class="contact-left bg-white">
-                  <h3>- Get In Touch -</h3>
-                  <h2>Contact Me</h2>
-                  <p>
-                    700 Morey Francois Street, San Francisco. CA 94148
-                    <br>
-                    info@lorem.com | Tel: 123-555-1212
-                  </p>
-                  &copy; 2023 by Migi Bell.
-                </div>
-                <div class="contact-right bg-white">
-                  <form>
-                    <div>
-                      <input type="text" name="name" value="Name">
-                    </div>
-                    <div>
-                      <input type="email" name="email" value="Email">
-                    </div>
-                    <div>
-                      <input type="text" name="phone" value="Phone">
-                    </div>
-                    <div id="message-input">
-                      <textarea name="message" id="message">Type your message here...</textarea>
-                    </div>
-                    <button class="btn bg-purple" type="submit" name="submit">Submit</button>
-                  </form>
-                </div>               
-              </section> -->
-            </div>     
-          </div>
-          <div class="ParallaxContainer2"></div>
-          <section id="about">
-            <div class="about-box bg-purple">
-              <h3>- Hello -</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-          </section>
-          <section id="contact">
-            <div class="contact-left bg-white">
-              <h3>- Get In Touch -</h3>
-              <h2>Contact Me</h2>
-              <p>
-                700 Morey Francois Street, San Francisco. CA 94148
-                <br>
-                info@lorem.com | Tel: 123-555-1212
-              </p>
-              &copy; 2023 by Migi Bell.
-            </div>
-            <div class="contact-right bg-white">
-              <form>
-                <div>
-                  <input type="text" name="name" value="Name">
-                </div>
-                <div>
-                  <input type="email" name="email" value="Email">
-                </div>
-                <div>
-                  <!-- <label></label> -->
-                  <input type="text" name="phone" value="Phone">
-                </div>
-                <div id="message-input">
-                  <textarea name="message" id="message">Type your message here...</textarea>
-                </div>
-                <button class="btn bg-purple" type="submit" name="submit">Submit</button>
-              </form>
-            </div>               
-          </section>
-          <div class="clr"></div>
-        </div>
-              
-</body>
-</html>
+  /* h1 {
+    letter-spacing: -15px;
+    font-family: Open Sans;
+    color: black;
+    text-align: center;
+    font-size: 200px;
+    font-weight: 800;
+    line-height: 200px;
+  } */
+  
+  .MainContainer {
+    /* width: 960px;
+    margin: auto; */
+    perspective: 1px;
+    transform-style: preserve-3d;
+    width: 960px;
+    margin: auto;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  
+  .ContentContainer {
+    /* width: 960px;
+    margin: auto; */
+    /* position: relative; */
+    display: block;
+    background-color:none;
+    z-index: 2;
+  }
+  
+  .Content {
+    /* width: 750px; */
+    margin: 0 auto;
+    padding: 5px 0;
+  }
+  
+  /* p {
+    margin: 75px 0;
+  } */
+  
+  .ParallaxContainer {
+    width: 960px;
+    margin: auto;
+    /* display: flex;
+    flex: 1 0 auto; 
+    position: relative; */
+    z-index: -1;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    transform: translateZ(-1px) scale(2);
+    background: url(./coffee2.jpg);
+    background-color: white;
+  }
+  .ParallaxContainer2 {
+    width: 960px;
+    margin: auto;
+    /* display: flex;
+    flex: 1 0 auto; */
+    /* position: relative; */
+    z-index: -1;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    transform: translateZ(-1px) scale(2);
+    background: url(./coffee1.jpg);
+    /* background-color: rgb(250,228, 216); */
+  }
+.logo {
+  font-size: 15px;
+  font-family: 'Libre Baskerville', serif;
+  font-style: italic;
+}
+  /* Navbar */
+#navbar {
+	position: sticky;
+	top: 0;
+	background: #fff;
+	overflow: auto;
+	width: 960px;
+	margin: auto;
+	z-index: 1;
+}
+#navbar h1 {
+  font-size: 12px;
+  color: #482A7A;
+	float: left;
+	/* padding-top: 20px; */
+}
+#navbar ul {
+	list-style: none;
+	float: right;
+}
+#navbar ul li {
+	float: left;
+	text-transform: uppercase;
+}
+#navbar ul li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+#navbar ul li a:hover {
+	color: #482A7A;
+}
+
+/* Home */
+/* #home {
+	height: 663px;
+} */
+.home-container {
+	width: 471px;
+  height: 362px;
+  margin: 0px auto;
+	/* background-color: #fff; */
+	
+}
+#home image {
+  float: left;
+  width: 50%;
+}
+.home-right {
+  float: right;
+  width: 50%;
+}
+  /* Portfolio */
+.box {
+	height: 567px;
+	float: left;
+	width: 33.33%;
+	text-transform: uppercase;
+}
+.bg-blue {
+	background: #5398B8;
+	color: #fff;
+}
+.bg-purple {
+	background: #482A7A;
+	color: #fff;
+}
+.bg-light_purple {
+	background: #996CC0;
+	color: #fff;
+}
+.bg-white {
+	background: #fff;
+	color: #482A7A;
+}
+.clr {
+	clear: both;
+}
+/* About */
+.about-box {
+	height: 454px;
+	padding-top: 100px;
+	padding-left: 115px;
+	padding-right: 100px;
+}
+.about-box h3 {
+	font-size: 14px;
+	font-weight: 900;
+	margin-bottom: 20px;
+	margin-left: -7px;
+}
+.about-box p {
+	font-size: 36px;
+	line-height: 1.2em;
+}
+
+/* Contact */
+.contact-right {
+	float: right;
+	width: 50%;
+	/* padding-top: 140px; */
+}
+.contact-left {
+	float: left;
+	width: 50%;
+	/* padding-top: 106px;
+  padding-left: 115px; */
+}
+
+#contact{
+	height: 413px;
+	background-color: #fff;
+}
+#contact h3 {
+	font-size: 13px;
+	font-weight: 900;
+	margin-bottom: 20px;
+	margin-left: -7px;
+}
+#contact h2 {
+	font-size: 36px;
+	margin-bottom: 15px;
+}
+#contact p {
+	margin-bottom: 95px;
+}
+/* Contact form related */
+#contact input {
+	height: 25px;
+	width:	363px;
+	margin-top: 4px;
+	padding-left: 8px;
+	border: #482A7A 1px solid;
+	color: #482A7A;
+}
+#message-input textarea{
+	border: #482A7A 1px solid;
+	color: #482A7A;
+	margin-top: 4px;
+	/* outline: none; */
+	/* resize: none; */
+	/* height: 100px;
+	padding-left: 10px; */
+}
+
+.btn {
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+	height: 27px;
+	width: 80px;
+	margin-top: 5px;
+	margin-left: 282px;
+	border: none;
+	cursor: pointer;
+}
+  
