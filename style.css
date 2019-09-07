@@ -1,0 +1,185 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* Main Styling */
+body {
+	/* font-family: 'Libre Baskerville', serif; */
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.7em;
+}
+a{
+	color: gray;
+	text-decoration: none;
+}
+
+/* Utility Classes*/
+.container {
+	margin: auto;
+	width: 960px;
+	overflow-y: scroll;
+}
+.background {
+	position: absolute;
+	perspective: 5px;
+	top: 0;
+	left: 0;
+	width: 960px;
+	/* height: 100%; */
+	transform: translateZ(0px);
+  }
+  
+.foreground {
+	margin-top: auto;
+	margin-bottom: 50px;
+	transform-origin: 0;
+	transform: translateZ(3px);
+}
+.uppercase {
+	text-transform: uppercase
+}
+.bg-blue {
+	background: #5398B8;
+	color: #fff;
+}
+.bg-purple {
+	background: #482A7A;
+	color: #fff;
+}
+.bg-light_purple {
+	background: #996CC0;
+	color: #fff;
+}
+.bg-white {
+	background: #fff;
+	color: #482A7A;
+}
+.clr {
+	clear: both;
+}
+/* Navbar */
+#navbar {
+	position: sticky;
+	top: 0;
+	background: #fff;
+	color: #482A7A;
+	overflow: auto;
+}
+#navbar h1 {
+	float: left;
+	padding-top: 20px;
+}
+#navbar ul {
+	list-style: none;
+	float: right;
+}
+#navbar ul li {
+	float: left;
+	text-transform: uppercase;
+}
+#navbar ul li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+#navbar ul li a:hover {
+	color: #482A7A;
+}
+
+/* Home */
+#home {
+	height: 663px;
+}
+.home-container {
+	width: 471px;
+	height: 262px;
+	/* background-color: #fff; */
+	padding-top: 100px;
+	padding-left: 100px;
+}
+/* #home .home-content {
+	color: #482A7A;
+} */
+
+/* Portfolio */
+.box {
+	height: 567px;
+	float: left;
+	width: 33.3333%;
+	text-transform: uppercase;
+	padding-top: 250px;
+	padding-left: 50px;
+}
+/* About */
+.box1 {
+	height: 454px;
+	padding-top:50px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.box1 p {
+	font-size: 36px;
+}
+/* Contact */
+#contact{
+	height: 436px;
+	background-color: #fff;
+}
+.contact-right {
+	float: right;
+	width: 50%;
+	padding-top: 120px;
+}
+.contact-left {
+	float: left;
+	width: 50%;
+	padding-top: 100px;
+	padding-left: 100px;
+}
+.btn {
+	background:#482A7A;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+/*
+html {
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	perspective: 1px;
+	transform-style: perserve-3d;
+	height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    text-align:right;
+    font-size:14px;
+}
+li{
+    float:left;
+    width:160px;
+    padding:10px;
+    background-color:#fff56f;
+}
+
+img {
+	width: 100%
+}
+.menu{
+	position: sticky;
+	top: 0;
+	background-image: url(./coffee2.jpg);
+	height: 500px;
+	width: 1150px;
+	background-size: cover;
+}
+*/
