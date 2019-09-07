@@ -1,0 +1,176 @@
+html, body {
+    font-family: 'Raleway', sans-serif;
+	  font-size: 12px;
+	  line-height: 1.7em;
+    /* font-size: 18px;
+    line-height: 28px; */
+    scroll-behavior: smooth;
+    overflow: hidden;
+    /* box-sizing: border-box; */
+  }
+  
+  h1 {
+    letter-spacing: -15px;
+    font-family: Open Sans;
+    color: black;
+    text-align: center;
+    font-size: 200px;
+    font-weight: 800;
+    line-height: 200px;
+  }
+  
+  .MainContainer {
+    perspective: 1px;
+    transform-style: preserve-3d;
+    width: 960px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  
+  .ContentContainer {
+    /* position: relative; */
+    display: block;
+    background-color:none;
+    z-index: 2;
+  }
+  
+  .Content {
+    /* width: 750px; */
+    margin: 0 auto;
+    padding: 5px 0;
+  }
+  
+  p {
+    margin: 75px 0;
+  }
+  
+  .ParallaxContainer {
+    display: flex;
+    flex: 1 0 auto; 
+    position: relative;
+    z-index: -1;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    transform: translateZ(-1px) scale(2);
+    background: url(./coffee2.jpg);
+    /* background-color: rgb(250,228, 216); */
+  }
+  .ParallaxContainer2 {
+    /* display: flex;
+    flex: 1 0 auto; */
+    /* position: relative; */
+    z-index: -1;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    transform: translateZ(-1px) scale(2);
+    background: url(./coffee1.jpg);
+    /* background-color: rgb(250,228, 216); */
+  }
+  /* Portfolio */
+.box {
+	height: 567px;
+	float: left;
+	width: 33.33%;
+	text-transform: uppercase;
+}
+.bg-blue {
+	background: #5398B8;
+	color: #fff;
+}
+.bg-purple {
+	background: #482A7A;
+	color: #fff;
+}
+.bg-light_purple {
+	background: #996CC0;
+	color: #fff;
+}
+.bg-white {
+	background: #fff;
+	color: #482A7A;
+}
+.clr {
+	clear: both;
+}
+/* About */
+.about-box {
+	height: 454px;
+	padding-top: 100px;
+	padding-left: 115px;
+	padding-right: 100px;
+}
+.about-box h3 {
+	font-size: 14px;
+	font-weight: 900;
+	margin-bottom: 20px;
+	margin-left: -7px;
+}
+.about-box p {
+	font-size: 36px;
+	line-height: 1.2em;
+}
+
+/* Contact */
+.contact-right {
+	float: right;
+	width: 50%;
+	/* padding-top: 140px; */
+}
+.contact-left {
+	float: left;
+	width: 50%;
+	/* padding-top: 106px;
+	padding-left: 115px; */
+}
+
+#contact{
+	height: 413px;
+	background-color: #fff;
+}
+#contact h3 {
+	font-size: 13px;
+	font-weight: 900;
+	margin-bottom: 20px;
+	margin-left: -7px;
+}
+#contact h2 {
+	font-size: 36px;
+	margin-bottom: 15px;
+}
+#contact p {
+	margin-bottom: 95px;
+}
+/* Contact form related */
+#contact input {
+	height: 25px;
+	width:	363px;
+	margin-top: 4px;
+	padding-left: 8px;
+	border: #482A7A 1px solid;
+	color: #482A7A;
+}
+#message-input textarea{
+	border: #482A7A 1px solid;
+	color: #482A7A;
+	margin-top: 4px;
+	/* outline: none; */
+	/* resize: none; */
+	/* height: 100px;
+	padding-left: 10px; */
+}
+
+.btn {
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+	height: 27px;
+	width: 80px;
+	margin-top: 5px;
+	margin-left: 282px;
+	border: none;
+	cursor: pointer;
+}
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+  
