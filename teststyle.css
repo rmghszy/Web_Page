@@ -127,7 +127,8 @@ html, body {
 .home-container {
 	width: 471px;
   height: 362px;
-  margin: 0px auto;
+  margin: 0 auto;
+  margin-top: -500px;
 	/* background-color: #fff; */
 	
 }
