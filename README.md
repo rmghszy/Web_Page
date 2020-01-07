@@ -1,4 +1,4 @@
-# 570HW3
+# CS571_HW3
 solution video:
 https://www.youtube.com/watch?v=uJpMdifQEiQ&feature=youtu.be
 
